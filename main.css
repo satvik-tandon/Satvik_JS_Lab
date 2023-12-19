@@ -1,0 +1,90 @@
+body,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: "Arial", sans-serif;
+  color: #333;
+
+  .container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .container h1 {
+    font-size: 36px;
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .container #question {
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 20px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #btn0,
+  #btn1,
+  #btn2,
+  #btn3,
+  #backToQuiz {
+    background-color: #3498db;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  #btn0:hover,
+  #btn1:hover,
+  #btn2:hover,
+  #btn3:hover,
+  #backToQuiz:hover {
+    background-color: #2980b9;
+  }
+
+  #progress {
+    font-size: 20px;
+    text-align: center;
+    color: #555;
+    margin-top: 20px;
+  }
+
+  #quiz h2 {
+    color: #555;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+  }
+}
